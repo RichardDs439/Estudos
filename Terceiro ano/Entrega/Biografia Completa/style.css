@@ -1,0 +1,199 @@
+        /* CSS RESET BÁSICO E CONFIGURAÇÕES GLOBAIS */
+        :root {
+            --primary-color: #003366; /* Azul escuro para títulos */
+            --secondary-color: #0056b3; /* Azul para links */
+            --text-color: #343a40; /* Cinza escuro para texto */
+            --bg-color: #f8f9fa; /* Fundo da página */
+            --container-bg: #ffffff; /* Fundo do container */
+            --border-color: #dee2e6; /* Cor da borda */
+        }
+        
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* CONTAINER PRINCIPAL COM ESTILO DE CARTÃO */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: var(--container-bg);
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        /* TÍTULOS E CABEÇALHO */
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            color: var(--primary-color);
+            margin-top: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* IMAGEM E CONTEÚDO PRINCIPAL */
+        .bio-image {
+            float: left;
+            margin: 5px 25px 10px 0;
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        main p {
+            text-align: justify;
+        }
+
+        /* MENU DE NAVEGAÇÃO ESTILIZADO */
+        nav {
+            clear: both; 
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        nav h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.4em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 8px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--secondary-color);
+            cursor: pointer;
+            font-weight: bold;
+            display: inline-block;
+            padding: 4px 0;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: var(--primary-color);
+        }
+        
+        /* SEÇÕES DE CONTEÚDO OCULTAS */
+        .content-section {
+            padding-top: 20px;
+        }
+
+        /* LISTA DE CONQUISTAS */
+        .achievements-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .achievements-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .achievements-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* GRADE DE CARTÕES PARA ARTIGOS */
+        .articles-grid {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .article-card {
+            background-color: #f8f9fa;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+        
+        .article-card .icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .article-card h4 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px 0 5px 0;
+            color: var(--primary-color);
+            font-size: 1.1em;
+        }
+        
+        .article-card p {
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+
+        /* BOTÃO DE VOLTAR ESTILIZADO */
+        .back-link {
+            display: inline-block;
+            margin-top: 25px;
+            font-weight: bold;
+            color: var(--container-bg);
+            background-color: var(--secondary-color);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .back-link:hover {
+            background-color: var(--primary-color);
+        }
+        
+        /* RODAPÉ E FONTES */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid var(--border-color);
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .sources-text {
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+        .sources-text a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        .sources-text a:hover {
+            text-decoration: underline;
+        }

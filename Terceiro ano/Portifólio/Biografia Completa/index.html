@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lionel Messi: A Lenda do Futebol</title>
+
+
+    <link rel="stylesheet" href="style.css">
+     
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div id="inicio">
+            <header>
+                <h1>Lionel Messi: A Lenda do Futebol ⚽</h1>
+            </header>
+
+            <main>
+                
+            <picture>
+    <!-- Se a tela tiver no máximo 750px de largura, carregue a foto pequena -->
+    <source media="(max-width: 350px)" srcset="Lionel_Messi_" type="image/jpg">
+    <!-- Se a tela tiver no máximo 1050px de largura, carregue a foto média -->
+    <source media="(max-width: 700px)" srcset="Lionel_Messi_650" type="image/jpg">
+    
+    <!-- Para todas as outras telas (maiores), carregue a foto grande -->
+    <img src="imagens/Lionel_Messi_WC2022.jpg" alt="A imagem flexível funciona">
+
+    </picture>    
+
+
+
+
+
+               
+                <h2>Um Gênio Argentino</h2>
+                <p>
+                    Lionel Andrés Messi, nascido em Rosário em 1987, é um futebolista argentino que atua como atacante. É amplamente considerado um dos maiores jogadores de todos os tempos, famoso por sua habilidade de drible, visão de jogo e uma capacidade extraordinária de marcar gols. Sua jornada de superação e talento o transformou em um ícone global.
+                </p>
+                <p>
+                    Este mini-site celebra algumas de suas maiores conquistas e momentos marcantes. Navegue pelas seções para aprender mais!
+                </p>
+            </main>
+
+            <nav>
+                <h3>Menu de Navegação</h3>
+                <ul>
+                    <li><a href="biografia/biografia.html" target="_self" rel="noopener noreferrer">Biografia Completa</a></li>
+                  <li><a href="cronologia/cronologia.html" target="_self" rel="next">Cronologia e Conquistas</a></li>
+                    <li><a class="nav-link" data-section="artigos-fifa">Artigos da FIFA</a></li>
+                    <li><a href="galeria/galeria.html" target="_self" rel="next">Galeria De Fotos do Messi</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div id="conquistas" class="content-section" style="display:none;">
+            <h2>Principais Conquistas</h2>
+            <div class="achievements-list">
+                <ul>
+                    <li><b>Copa do Mundo da FIFA:</b> 1 (2022)</li>
+                    <li><b>Copa América:</b> 1 (2021)</li>
+                    <li><b>Finalíssima Intercontinental:</b> 1 (2022)</li>
+                    <li><b>UEFA Champions League:</b> 4</li>
+                    <li><b>Mundial de Clubes da FIFA:</b> 3</li>
+                    <li><b>Ballon d'Or (Bola de Ouro):</b> 8 (Recorde)</li>
+                    <li><b>Campeonato Espanhol (La Liga):</b> 10</li>
+                    <li><b>Campeonato Francês (Ligue 1):</b> 2</li>
+                </ul>
+            </div>
+            <a href="#" class="back-link nav-link" data-section="inicio">&larr; Voltar ao Início</a>
+        </div>
+
+        <div id="artigos-fifa" class="content-section" style="display:none;">
+            <h2>Artigos Oficiais da FIFA</h2>
+            <div class="articles-grid">
+                <a href="https://www.fifa.com/pt/tournaments/mens/club-world-cup/usa-2025/articles/messi-cobrancas-falta-mundial-inter-miami" target="_blank" rel="noopener noreferrer" class="article-card">
+                    <div class="icon">🎯</div>
+                    <h4>A Arte da Cobrança de Falta</h4>
+                    <p>Como Messi se tornou um mestre nas bolas paradas, desde a observação de Riquelme até a perfeição.</p>
+                </a>
+                <a href="https://www.fifa.com/pt/articles/lionel-messi-exclusiva-inter-miami" target="_blank" rel="noopener noreferrer" class="article-card">
+                    <div class="icon">🎙️</div>
+                    <h4>Entrevista Exclusiva</h4>
+                    <p>Messi fala à FIFA sobre a emoção de disputar o novo Mundial de Clubes pelo Inter Miami.</p>
+                </a>
+                <a href="https://www.fifa.com/pt/articles/lionel-messi-inter-miami-mundial-clubes" target="_blank" rel="noopener noreferrer" class="article-card">
+                    <div class="icon">🌟</div>
+                    <h4>Impacto e Recordes</h4>
+                    <p>Um perfil da FIFA sobre o craque, seus principais atributos e o impacto no futebol dos EUA.</p>
+                </a>
+            </div>
+            
+            <a href="#" class="back-link nav-link" data-section="inicio">&larr; Voltar ao Início</a>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 - Trabalho Escolar sobre Figuras do Esporte.</p>
+            <p class="sources-text">
+                Fontes: Informações adaptadas da <a href="https://pt.wikipedia.org/wiki/Lionel_Messi" target="_blank" rel="noopener noreferrer">Wikipédia</a> e artigos oficiais da <a href="https://www.fifa.com/pt/" target="_blank" rel="noopener noreferrer">FIFA</a>.
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Lógica para navegação em página única (SPA - Single Page Application)
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const contentSections = document.querySelectorAll('.content-section, #inicio');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Previne o comportamento padrão do link
+                    
+                    const targetId = this.getAttribute('data-section');
+
+                    // Esconde todas as seções
+                    contentSections.forEach(section => {
+                        section.style.display = 'none';
+                    });
+                    
+                    // Mostra a seção alvo
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.style.display = 'block';
+                    }
+                    
+                    // Rola a página para o topo do container
+                    window.scrollTo({
+                        top: document.querySelector('.container').offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+<!--Achei um trabalho muito legal e bem elaborado, pois o professor nos deu uma proposta para testar nossas habilidades e ter uma pequena noção de como é trabalhoso criar um site bem feito e funcioal-->
+
+
+
+
