@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(76, 113, 143);
+   color: rgb(14, 13, 13);
+    margin: 0;
+    padding: 0 16px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #080808;
+    margin: 36px 0 10px;
+    font-size: 26px;
+}
+
+
+form {
+   background-color: rgb(247, 244, 244);
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 20px 24px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(241, 241, 241, 0.08);
+}
+
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #0f0f0f;
+    font-size: 14px;
+}
+
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    border: 1px solid #080808;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color .15s, box-shadow .15s;
+}
+
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #080808;
+    box-shadow: 0 0 0 3px rgba(241, 241, 241, 0.08);
+}
+
+
+button {
+    width: 100%;
+    margin-top: 18px;
+    background-color: #b62f2f;
+    color: #111111;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .18s, transform .06s;
+}
+
+button:hover {
+    background-color: #111111;
+}
+button:active {
+    transform: translateY(1px);
+}
+
+
+.resultado {
+    max-width: 420px;
+    margin: 18px auto;
+    background: #111111;
+    border-radius: 10px;
+    padding: 14px 18px;
+    box-shadow: 0 6px 14px rgba(18, 38, 63, 0.06);
+}
+
+.resultado h2 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #020202;
+    text-align: center;
+}
+
+.resultado p {
+    margin: 6px 0;
+    font-size: 15px;
+    text-align: center;
+    color: #0c0c0c;
+}
